@@ -3,7 +3,7 @@ package badgerstore
 import (
 	"time"
 
-	"github.com/dgraph-io/badger"
+	badger "github.com/dgraph-io/badger/v4"
 )
 
 // BadgerStore represents the session store.
